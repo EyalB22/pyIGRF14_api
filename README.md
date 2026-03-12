@@ -1,4 +1,4 @@
-pyIGRF is a simple Python package for evaluating any generation of the International Geomagnetic Reference Field (IGRF) geomagnetic field model.
+pyIGRF14_api is a Python package for evaluating any generation of the International Geomagnetic Reference Field (IGRF) geomagnetic field model.
 
 Project specification and architecture direction are documented in `SPECIFICATION.md`.
 

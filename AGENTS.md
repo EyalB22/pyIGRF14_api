@@ -4,7 +4,7 @@ This file defines repository context and guardrails for coding agents and contri
 
 ## Repository Purpose
 
-`pyIGRF14` computes Earth magnetic field values from IGRF coefficient files.
+`pyIGRF14_api` computes Earth magnetic field values from IGRF coefficient files.
 
 Strategic project direction:
 - Build an embeddable server module around the `pyIGRF` computational backend so multiple applications can use a single, consistent implementation.
@@ -56,8 +56,8 @@ python -m pytest tests\test_api_parity.py -q
 MATLAB interop validation (manual):
 
 ```matlab
-run('C:\Users\eyalb\Desktop\pyIGRF14\pyIGRF14\tests\small_matlab_call_example.m')
-run('C:\Users\eyalb\Desktop\pyIGRF14\pyIGRF14\tests\matlab_compare_igrfmagm.m')
+run('C:\Users\eyalb\Desktop\pyIGRF14_api\pyIGRF14_api\tests\small_matlab_call_example.m')
+run('C:\Users\eyalb\Desktop\pyIGRF14_api\pyIGRF14_api\tests\matlab_compare_igrfmagm.m')
 ```
 
 ## Known Constraints
