@@ -6,8 +6,8 @@ Project specification and architecture direction are documented in `SPECIFICATIO
 
 This repository is based on the upstream `pyIGRF` project and extends it with non-interactive APIs, interoperability wrappers, and server-oriented integration direction.
 
-- Upstream repository: `<add-upstream-repo-url>`
-- Upstream baseline (commit or tag): `<add-upstream-commit-or-tag>`
+- Upstream repository: `https://github.com/ciaranbe/pyIGRF`
+- Upstream baseline (commit or tag): `418406c`
 - License: MIT (see `LICENCE.txt`)
 
 The code runs a simple command-line driven menu which allows spot values of the seven main field components (Declination, Inclination, Total Field, Horizontal, North, East and Vertical strength, or D,I,F,H,X,Y,Z) and their respective secular variation to be computed for a given latitude, longitude, altitude and time.
